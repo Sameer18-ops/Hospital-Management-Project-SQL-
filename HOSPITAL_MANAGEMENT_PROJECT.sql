@@ -387,12 +387,6 @@ ORDER BY SUM(b.amount) DESC;
 
 
 ##...Creat the RFM matrix per patience ..(last visit,total visit, total_spend)
-
-SELECT* FROM Patients;
-SELECT * FROM appointments;
-SELECT * FROM BILLING;
-
-
 WITH RFM AS 
 (
 SELECT 
